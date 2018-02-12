@@ -1,0 +1,50 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #ECF0F1;
+	text-align: left;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+.footer {
+	margin-top: 60px;
+}
+
+ol {
+	list-style-position: inside;
+}
+ul {
+	list-style-type: square;
+}
+
+p {
+  background-color: #EED2D2;
+  color: red;
+  display: inline-block;
+}
+
+#madeby {
+  font-size: 1.5em;
+  color: black;
+}
+
+#fcc-link {
+  color: #7E73E1;
+}
+
+a {
+	color: #2574A9;
+}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
