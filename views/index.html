@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+         <h1>FreeCodeCamp API Basejump: Image Search Abstraction</h1>
+         <h3>User Stories</h3>
+          <ul>
+            <li> I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>
+            <li> I can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+            <li> I can get a list of the most recently submitted search strings.</li>
+          </ul>
+        <h3>Image Search For "cats"</h3>
+        <p>
+          https://fcc-ian-image-search.glitch.me/api/imagesearch/cats
+        </p>
+        <h3>
+          Sample Response Output (First item only)
+        </h3>
+        <p>
+          {"title":"Cat hotel and spa in Kota Bharu ⋆ The Malaysian Times","link":"http://www.themalaysiantimes.com.my/wp-content/uploads/2017/05/06-train-cat-shake-hands.jpg","snippet":"Cat hotel and spa in Kota Bharu ⋆ The Malaysian Times","image":{"contextLink":"http://www.themalaysiantimes.com.my/cat-hotel-and-spa-in-kota-bharu/","thumbnailLink":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDdUcTz1i8cODfrSFRKk4op_8pTS2eC-gvapT6XuDKvZql0uZxeeE3a8U"}}
+        </p>
+        <h3>
+          Image Search With Offset
+        </h3>
+        <p>
+          https://fcc-ian-image-search.glitch.me/api/imagesearch/cats?offset=5
+        </p>
+        <h3>
+          See Latest Searches
+        </h3>
+        <p>
+          https://fcc-ian-image-search.glitch.me/api/latest/imagesearch
+        </p>
+        <h3>
+          Sample Response Output
+        </h3>
+        <p>
+          [{"term":"lolcats funny","when":"2018-02-12T05:57:10.878Z"},{"term":"lolcats","when":"2018-02-12T05:56:32.818Z"}]
+        </p>
+      </div>
+      <div id="madeby">
+        <h6>Made by <a href="https://www.freecodecamp.org/irichard620" alt="Ian's FCC" id="fcc-link">Ian Richard</a></h6>
+      </div>
+   </body>
+
+</html>
